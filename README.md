@@ -11,7 +11,7 @@ Provide a secure backend for authentication, tuition posting, tutor applications
 
 ## Features
 
-- Firebase ID token verification, then our own JWT (role and expiry verified on every request).
+- Firebase ID tokens verified with Google public keys (jose, no admin credentials needed), then our own JWT (role and expiry verified on every request).
 - Role based access control for student, tutor and admin routes.
 - Tuitions: create, edit, delete, public listing with search, sort, filters and pagination.
 - Applications: tutors apply, edit or delete until approved; students approve (after payment) or reject.
@@ -21,7 +21,7 @@ Provide a secure backend for authentication, tuition posting, tutor applications
 
 ## Packages used
 
-Next.js (route handlers), MongoDB driver, firebase-admin, jose (JWT), Stripe.
+Next.js (route handlers), MongoDB driver, jose (JWT and Firebase ID token verification), Stripe.
 
 ## Getting started
 

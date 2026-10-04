@@ -1,5 +1,5 @@
 import { getDb } from "@/lib/mongodb";
-import { verifyFirebaseToken } from "@/lib/firebaseAdmin";
+import { verifyFirebaseToken } from "@/lib/firebaseAuth";
 import { signToken } from "@/lib/jwt";
 import { ApiError, handler } from "@/lib/guard";
 
