@@ -2,8 +2,8 @@
 
 REST API for **eTuitionBD**, a tuition management platform where students post tuitions, tutors apply, and admins moderate everything.
 
-**Client repository:** see the eTuitionBD client project.
-**Live API URL:** _add after deployment_
+**Client repository:** https://github.com/MdShariyar56/etuitionbd-client (live: https://etuitionbd-client-eight.vercel.app)
+**Live API URL:** https://etuitionbd-server-seven.vercel.app
 
 ## Purpose
 
